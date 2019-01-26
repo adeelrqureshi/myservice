@@ -2,7 +2,7 @@ var express  = require('express');
 var app = express();
 
 app.get('/', function(req,res){
-    res.json({'msg':'Hello world'});
+    res.json({'msg':'Hello world from docker auto build '});
 });
 
 var port = process.env.port || 3000; 
